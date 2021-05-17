@@ -5,11 +5,11 @@ package:
 
 test:
 	java -jar target/owl-api-big-1.0-SNAPSHOT-jar-with-dependencies.jar 5 > out/test.owl
-	
+
 clean:
 	mvn clean
 	- rm -r out
-	
+
 out:
 	- mkdir out
 
