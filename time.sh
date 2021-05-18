@@ -7,7 +7,7 @@ OUT=out/times.out
 echo "OWL API" > $OUT
 
 # list of commands
-commands=("o10.owx" "o100.owx" "o1000.owx" "o10000.owx" "o100000.owx" "o1000000.owx")
+commands=("o10.owx" "o100.owx" "o1000.owx" "o10000.owx" "o100000.owx" "o1000000.owx" "o2500000.owx" "o5000000.owx" "o10000000.owx" "o20000000.owx")
 
 # for each command
 for c in ${commands[@]}
