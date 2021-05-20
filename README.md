@@ -9,9 +9,7 @@
 
 To create owl-api-big jar file (with dependencies) type `make`.
 
-To conduct timings test type `./time.sh`.
-
-## Available timings
+## Additional make commands
 
 * o10.owx
 * o100.owx
@@ -23,5 +21,5 @@ To conduct timings test type `./time.sh`.
 * o5000000.owx
 * o10000000.owx
 * o20000000.owx -> fails
-
-
+* small -> ontologies 10^1 to 10^5
+* large -> ontologies 10^6 to 2*10^7
