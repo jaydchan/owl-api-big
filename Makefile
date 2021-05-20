@@ -10,9 +10,9 @@ package:
 out:
 	- mkdir out
 
-small:	o10.owx o100.owx o1000.owx o10000.owx o100000.owx o1000000.owx
+small:	o10.owx o100.owx o1000.owx o10000.owx o100000.owx
 
-large:	o10.owx o100.owx o1000.owx o10000.owx o100000.owx o1000000.owx o2500000.owx o5000000.owx o10000000.owx o20000000.owx
+large:	o1000000.owx o2500000.owx o5000000.owx o10000000.owx o20000000.owx
 
 CMD=java -jar target/owl-api-big-1.0-SNAPSHOT-jar-with-dependencies.jar
 
@@ -49,4 +49,4 @@ o10000000.owx:
 ## This file comes in at over 1Gb which seems a nice round number to
 ## stop at.
 o20000000.owx:
-	$(CMD) out/20000000 > o2000000.owx
+	$(CMD) 20000000 > out/o2000000.owx
